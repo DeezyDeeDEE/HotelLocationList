@@ -1,5 +1,5 @@
 /*  
-    Names: Jackson Whitworth,
+    Names: Jackson Whitworth,Spencer Kirksey
     Date: 10/24/2024
     File Purpose: implements guest linked list funcs
 */
