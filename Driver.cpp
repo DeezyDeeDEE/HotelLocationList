@@ -40,10 +40,10 @@ int main()
             cin >> checkOut;
             bookings.addGuest(Guest(name, roomNumber, checkIn, checkOut)); //add guest to list
             break;
-        }
+        
 
         case 2:
-        {
+        
             try 
             {
                 bookings.removeFrontGuest();
@@ -53,19 +53,19 @@ int main()
                 cout << e.what() << endl;
             }
             break;
-        }
+        
 
         case 3:
-        {
+        
             cout << "Current bookings:\n" << bookings << endl; // show list
             break;
-        }
+        
 
         case 4:
-        {
+        
             bookings.sortBookings(); // sort bookings
             cout << "Bookings sorted by check-in date.\n";
             break;
         }
-    }
+    }while(choice != 5);
 }
