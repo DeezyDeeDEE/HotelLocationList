@@ -40,8 +40,10 @@ int main()
             cin >> checkOut;
             bookings.addGuest(Guest(name, roomNumber, checkIn, checkOut)); //add guest to list
             break;
+        }
 
         case 2:
+        {
             try 
             {
                 bookings.removeFrontGuest();
