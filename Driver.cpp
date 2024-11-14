@@ -53,12 +53,16 @@ int main()
                 cout << e.what() << endl;
             }
             break;
+        }
 
         case 3:
+        {
             cout << "Current bookings:\n" << bookings << endl; // show list
             break;
+        }
 
         case 4:
+        {
             bookings.sortBookings(); // sort bookings
             cout << "Bookings sorted by check-in date.\n";
             break;
